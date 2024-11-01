@@ -12,5 +12,6 @@ public class DisplayTwo10 {
         for (int i = 2; i <= numInput ; i+=2) {
             System.out.printf("%d ", i);
         }
+        System.out.println("%");
     }
 }
