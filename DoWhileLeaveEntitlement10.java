@@ -23,8 +23,10 @@ public class DoWhileLeaveEntitlement10 {
                     System.out.println("You dont have enough leave entitlement");
                     continue;
                 } 
+            }else {
+                System.out.println("You must enter the right answer");
+                break;
             }
         } while (leaveEntitlement > 0);
-        System.out.println( "You already use all your leave entitlement");
     }
 }
