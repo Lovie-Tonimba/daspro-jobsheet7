@@ -14,5 +14,11 @@ public class TheTriangle10 {
             System.out.println(s);
             i++;
         }
+
+        //MODIFICATION NO.1
+        // for(int i = 0; i < numInput; i++){
+        //     s += " *";
+        //     System.out.println(s);
+        // }
     }
 }
